@@ -8,7 +8,7 @@ import SmallFooter from '../Components/SmallFooter';
 const Welcome = () => {
   
 
-  return (
+  return (  
     <div>
       <ShortHeader />
       <OnboardingText />
