@@ -99,7 +99,7 @@
   color: white;
 }
 
-/* .formLR input[type="button"] {
+input [type="button"] {
   width: 450px;
   height: 54.34px;
   border-style: none;
@@ -108,7 +108,7 @@
   color: white;
   margin-top: 27.63px;
   font-weight: 600;
-} */
+}
 
 .labelInputSgngUp {
   display: flex;
@@ -116,7 +116,19 @@
   margin: 20px;
 }
 
-.signUpbtn-disabled {
+.AvisoDePrivacidad {
+  display: flex;
+  align-content: center;
+  margin: 3%;
+}
+
+
+/* .politics {
+  width
+} */
+
+
+/* .signUpbtn-disabled {
   background: -webkit-gradient(
     linear,
     left top,
@@ -135,16 +147,15 @@
     to(#ea3e3c)
   );
   background: linear-gradient(90deg, #891928 0%, #ea3e3c 100%);
-}
-
-
-/* .namee {
-  grid-column: 1 / 2;
-  grid-row: 1;
-}
-
-.email {
-  grid-column: 2 / 2;
-  grid-row: 1;
 } */
+
+
+.btn-disabled {
+  background: -webkit-gradient(linear, left top, right top, color-stop(5.31%, #909090), to(#C4C4C4));
+  background: linear-gradient(90deg, #909090 5.31%, #C4C4C4 100%);
+}
+.btn-enabled {
+  background: -webkit-gradient(linear, left top, right top, from(#891928), to(#EA3E3C));
+  background: linear-gradient(90deg, #891928 0%, #EA3E3C 100%);
+}
 /*# sourceMappingURL=login.css.map */

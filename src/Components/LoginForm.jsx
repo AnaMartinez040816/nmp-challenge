@@ -65,7 +65,7 @@ const LoginForm = () => {
           />
         </div>
 
-        <ReCaptchaComponent 
+        <ReCaptchaComponent    
           isVerified={isVerified}
           setIsVerified={setIsVerified}
         />

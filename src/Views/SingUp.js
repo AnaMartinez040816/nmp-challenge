@@ -13,7 +13,6 @@ const SignUp = () => {
     <div>
       <Header />
       <SignUpForm/>
-
       <Footer />
     </div>
   )

@@ -1,0 +1,53 @@
+.ps-modalForm-container {
+	min-height: 50vh;
+	
+}
+
+.ps-titleModal{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 37px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #891928;
+	border-bottom: 2px solid #891928;
+	width:85%;
+	margin:3% 8% 2% 8%;
+
+} 
+
+.privacyContainer{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width:70%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	/* padding: 10%; */
+	margin-top:5%;
+	margin-left: 10%;
+	flex-direction: column;
+}
+
+.ps-submit-button{
+	background-color: rgba(253, 181, 19, 1);
+	color: white;
+	font-family: 'Roboto';
+	font-style: bold;
+	padding: 1%;
+	margin: 5%;
+	width: 30%;
+	height: 35%;
+	align-self: center;
+	border-style: none;
+	cursor: pointer;
+}
+
+.ps-submit-button:hover {
+  background-color: #D73F3C;
+}
