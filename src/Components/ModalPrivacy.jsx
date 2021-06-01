@@ -11,7 +11,7 @@ function ModalPreSingup() {
         <p>
           <strong>Cláusula I.- Identidad y domicilio del responsable</strong>
           <br />
-      <br />
+          <br />
           Nacional Monte de Piedad I.A.P. (NMP), con domicilio en avenida Paseo
           de la Reforma N° 355 y 359, Colonia Cuauhtémoc, C.P. 06500, Delegación
           Cuauhtémoc, México, D.F., es responsable de recabar los datos
