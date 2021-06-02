@@ -7,7 +7,7 @@ import FilterStatus from '../Components/FilterStatus';
 
 import openModal from '../Components/ModalFunction';
 import ModalPreSingup from '../Components/ModalPreSignup';
-import FilterStatus from '../Components/';
+import FilterStatus from '../Components/FilterStatus';
 
 import firebase from '../Firebase/firebase'
 import 'firebase/firestore'
