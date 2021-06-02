@@ -96,7 +96,7 @@ export const SignUpForm = () => {
 		<div className="signUp-container">
 			<img className="signUpbackImg" src={loginBack} alt="signUpbackImg" />
 
-			<form className="signUp-form-container" onSubmit={(e) => {
+			<form className="signUp-form-container"  action="POST"data-netlify="true" onSubmit={(e) => {
 				e.preventDefault()
 				info()
 				console.log('hola')

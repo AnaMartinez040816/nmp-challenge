@@ -28,7 +28,7 @@ const ReCaptchaComponent = ({isVerified,setIsVerified}) => {
 
   return (
     <div>
-      <Recaptcha
+      <Recaptcha data-netlify-recaptcha="true"
         sitekey="6LfIW8gZAAAAAAgBswhFHkciGTkVgrRcCPXjLQOv"
         render="explicit"
         onloadCallback={recaptchaLoaded}

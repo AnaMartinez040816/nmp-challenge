@@ -39,7 +39,7 @@ const LoginForm = () => {
 	}
 
 	return (
-		<div className='login-container'>
+		<div className='login-container' action="POST" data-netlify="true">
 			<img className='backImg' src={loginBack} alt='backImg' />
 			<div className='login-form-container'>
 				<p>
@@ -67,7 +67,7 @@ const LoginForm = () => {
 					/>
 				</div>
 
-				<ReCaptchaComponent
+				<ReCaptchaComponent 
 					isVerified={isVerified}
 					setIsVerified={setIsVerified}
 				/>
